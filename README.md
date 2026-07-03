@@ -19,6 +19,15 @@ A modern, elegant, fully responsive, and recruiter-friendly multi-page personal 
 
 ---
 
+# Personal Portfolio
+
+🌐 Live Website: https://kabilesh-portfolio.netlify.app/
+
+## Repository
+This repository contains the source code for my personal portfolio.
+
+---
+
 ## 📁 Folder Structure
 
 ```text
