@@ -55,22 +55,3 @@ Since the website does not use any heavy frameworks, build pipelines, or servers
 4. Navigate through the pages using the header links.
 
 ---
-
-## ✍️ Customization Instructions
-
-### Replacing the Profile Picture
-Replace the placeholder profile image by copying your headshot/avatar into the `images` directory:
-- Name the file `profile.png`.
-- Ensure it is square (e.g., `400x400` pixels) for a perfect circle frame.
-
-### Modifying the Typing Roles
-To change the titles printed in the typing effect on the Home Page, open `script.js` and edit the array in the **Typing Effect** section:
-```javascript
-const roles = ["B.Tech IT Student", "Backend Enthusiast", "Problem Solver"];
-```
-
-### Modifying the Contact Form Actions
-Currently, the contact form validates and displays a local success response message. To receive emails directly, you can connect the form to free submission handlers (like [Formspree](https://formspree.io/) or [Web3Forms](https://web3forms.com/)) by editing the `<form>` tag in `contact.html`:
-```html
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
